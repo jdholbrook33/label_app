@@ -59,22 +59,25 @@ This project is a web-based form that allows users to input data about items in 
 
 3. **The data will be saved to a CSV file in the project directory.**
 
+```markdown
 ## Project Structure
 
+```
 inventory-form/
 ├── static/
-│ ├── css/
-│ │ └── styles.css
-│ └── js/
-│ └── scripts.js
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── scripts.js
 ├── templates/
-│ └── index.html
+│   └── index.html
 ├── data/
-│ └── suppliers.json
+│   └── suppliers.json
 ├── app.py
 ├── requirements.txt
 └── README.md
-
+```
+```
 
 ## JSON File Format
 
