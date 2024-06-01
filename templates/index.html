@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Form</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <form id="inventoryForm">
+            <label for="itemName">Item Name:</label>
+            <input type="text" id="itemName" name="itemName" required>
+
+            <label for="itemDescription">Item Description:</label>
+            <textarea id="itemDescription" name="itemDescription" required></textarea>
+
+            <label for="supplier">Supplier:</label>
+            <select id="supplier" name="supplier" required></select>
+
+            <label for="partNumber">Part Number:</label>
+            <input type="text" id="partNumber" name="partNumber" required>
+
+            <label for="quantity">Quantity in Stock:</label>
+            <input type="number" id="quantity" name="quantity" required>
+
+            <div class="buttons">
+                <button type="button" id="submitBtn">Submit</button>
+                <button type="button" id="clearBtn">Clear</button>
+            </div>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
